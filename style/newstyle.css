@@ -1,0 +1,45 @@
+.main{
+
+  background-image: url(../images/logo.png), url('../images/fon2.png'), url(../images/pic1.png);
+  background-size: 25%, contain, cover;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: 50% 3%, 0 0, 0 0;
+  /*height: 100px;*/
+  padding: 15% 0;
+  position: relative;
+}
+.menu{
+  position: absolute;
+  top: 5%;
+  list-style: none;
+  padding-left: 10%;
+  width: 100%;
+  color: #fff;
+  font-size: 16px;
+}
+.menu > li{
+  margin: 0 5%;
+}
+.neft1{
+  background-image: url(../images/neft1.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 20px 0;
+  height: 300px;
+}
+@media screen and (max-width: 1170px) {
+  .neft1{
+    background-size: 60%;
+    background-position: -100px 0;
+  }
+}
+
+@media screen and (max-width: 992px) {
+   .main{
+       background-image: url(../images/logo.png), url('../images/fon.png'), url(../images/pic1.png);
+   }
+   .neft1{
+     background: none;
+   }
+}
